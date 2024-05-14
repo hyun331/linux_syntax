@@ -40,12 +40,15 @@ touch first_file.txt
 # 파일 내용 조회
 cat 파일 이름
 
+# 파일 내용 조회(페이지별로. space바를 통해 이동)
+more 파일 이름
+
 # 터미널창에 문자열을 출력하는 명령어.
 echo "hello, world"
 
 #echo를 통해 파일에 문자열을 write하은 방법
 >하나를 쓰면 덮어쓰기 모드, >>두개쓰면추가모드
-echo "hello world" > first_file.txtls
+echo "hello world" > first_file.txt
 
 # history 명령어를 통해 이전에 실행했던 명령어 조회
 history
@@ -81,3 +84,5 @@ head -5 first.txt #-5옵션을 주면 5줄
 nano 파일명
 # 모든 운영체제에서 nano편집기가 있을까? -> 배포판마다 다름
 # 일반적으로 vi 편집기는 대부분 설치되어 있음.(역사가 길다.)
+
+
